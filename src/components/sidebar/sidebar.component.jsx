@@ -16,14 +16,24 @@ const Sidebar = () => {
         WS
       </div>
       <div className="space-y-10 absolute top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2">
-        <SidebarIcon icon={<BiHomeAlt />} text="home"></SidebarIcon>
-        <SidebarIcon
-          icon={<MdOutlinePersonOutline />}
-          text="about"
-        ></SidebarIcon>
-        <SidebarIcon icon={<FaLaptopCode />} text="skills"></SidebarIcon>
-        <SidebarIcon icon={<MdWorkOutline />} text="projects"></SidebarIcon>
-        <SidebarIcon icon={<HiOutlineMail />} text="contact"></SidebarIcon>
+        <a href="#home">
+          <SidebarIcon icon={<BiHomeAlt />} text="home" />
+        </a>
+        <a href="#about">
+          <SidebarIcon
+            icon={<MdOutlinePersonOutline />}
+            text="about"
+          ></SidebarIcon>
+        </a>
+        <a href="#skills">
+          <SidebarIcon icon={<FaLaptopCode />} text="skills" />
+        </a>
+        <a href="#projects">
+          <SidebarIcon icon={<MdWorkOutline />} text="projects" />
+        </a>
+        <a href="#contact">
+          <SidebarIcon icon={<HiOutlineMail />} text="contact" />
+        </a>
       </div>
     </div>
   );

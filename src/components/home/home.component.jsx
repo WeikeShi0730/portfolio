@@ -2,74 +2,43 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex justify-center items-center h-screen w-full">
-      <div className="flex justify-center w-full relative py-0 px-4">
-        <img
-          className="rounded-full my-0 w-64 h-64 shadow"
-          src="assets/images/me.jpg"
-          alt="Weike Shi"
-        />
-      </div>
-      <div class="heroDescription w-full py-0 px-4">
-        <p class="greeting text-base leading-4">HI THERE! I'M</p>
-        <h1 className="">
-          <span className="text-green-500">WEIKE</span> SHI
-        </h1>
-        <p class="smallBio">
-          A <span>Front-End Web Developer</span> passionate about creating
-          interactive applications and experiences on the web.
-        </p>
-        <div class="socialsResume">
-          <a
-            class="resumeLink"
-            href="assets/Alex-Calia-Resume.pdf"
-            alt="Alex Calia's resumé"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resumé
-          </a>
-          <ul class="socialsList">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/alexander-calia-33190337/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i
-                  class="lni lni-linkedin-original"
-                  aria-label="Link to Alex's LinkedIn page."
-                ></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/alexcalia"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i
-                  class="lni lni-github-original"
-                  aria-label="Link to Alex's GitHub page."
-                ></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com/AlexanderCalia"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i
-                  class="lni lni-twitter-original"
-                  aria-label="Link to Alex's Twitter profile."
-                ></i>
-              </a>
-            </li>
-          </ul>
+    <section id="Home">
+      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
+            hi, i'm <span className="text-green-500">Weike</span>.
+            <br className="hidden lg:inline-block" />i love building fun web
+            applications
+          </div>
+          <p className="mb-8 leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
+            Laborum, voluptas natus?
+          </p>
+          <div className="flex justify-center">
+            <a
+              href="#contact"
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
+              Work With Me
+            </a>
+            <a
+              href="#projects"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+            >
+              See My Past Work
+            </a>
+          </div>
+        </div>
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            className="object-cover object-center rounded-full w-96 h-96 shadow"
+            src="assets/images/me.jpg"
+            alt="Weike Shi"
+          />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
