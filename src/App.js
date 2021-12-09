@@ -3,6 +3,7 @@ import Sidebar from "./components/sidebar/sidebar.component";
 import Home from "./components/home/home.component";
 // import About from "./components/about/about.component";
 import Skills from "./components/skills/skills.component";
+import Projects from "./components/projects/projects.component";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Home />
         {/* <About /> */}
         <Skills />
+        <Projects />
       </div>
     </>
   );

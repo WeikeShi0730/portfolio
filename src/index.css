@@ -13,11 +13,11 @@
   }
   .sidebar-tooltip {
     @apply absolute w-auto p-2 m-6 min-w-max left-14 rounded-md shadow-md
-    text-white bg-gray-900 
+    text-white bg-gray-700 
     text-xs font-bold 
     transition-all duration-100 scale-0 origin-left;
   }
   .dark-button {
-    @apply bg-gray-800 hover:bg-gray-600 text-gray-400 hover:text-white ;
+    @apply bg-gray-700 hover:bg-gray-500 text-gray-400 hover:text-white ;
   }
 }
