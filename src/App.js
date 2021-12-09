@@ -1,13 +1,17 @@
 import React from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Sidebar from "./components/sidebar/sidebar.component";
 import Home from "./components/home/home.component";
 // import About from "./components/about/about.component";
 import Skills from "./components/skills/skills.component";
 import Projects from "./components/projects/projects.component";
+import Contact from "./components/contact/contact.component";
 
 function App() {
   return (
     <>
+      <ToastContainer autoClose={4000} />
       <div className="fixed top-0 left-0 h-screen w-1/12">
         <Sidebar />
       </div>
@@ -16,6 +20,7 @@ function App() {
         {/* <About /> */}
         <Skills />
         <Projects />
+        <Contact />
       </div>
     </>
   );

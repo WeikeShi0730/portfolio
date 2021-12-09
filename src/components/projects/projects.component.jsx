@@ -20,7 +20,7 @@ const Projects = () => {
           {projects.map((project) => (
             <a
               href={project.link}
-              key={project.image}
+              key={project.title}
               className="sm:w-1/2 w-100 p-4"
             >
               <div className="flex relative rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-500">

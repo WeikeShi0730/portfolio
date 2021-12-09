@@ -18,6 +18,9 @@
     transition-all duration-100 scale-0 origin-left;
   }
   .dark-button {
-    @apply bg-gray-700 hover:bg-gray-500 text-gray-400 hover:text-white ;
+    @apply bg-gray-700 hover:bg-gray-500 text-gray-400 hover:text-white;
+  }
+  .green-button {
+    @apply text-white bg-green-500 hover:bg-green-400;
   }
 }

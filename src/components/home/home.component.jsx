@@ -22,7 +22,7 @@ const Home = () => {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg"
+              className="green-button inline-flex border-0 py-2 px-6 focus:outline-none rounded text-lg"
             >
               work with me
             </a>
