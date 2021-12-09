@@ -51,10 +51,10 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="flex flex-col m-auto w-5/6  md:py-8 mt-8 md:mt-0"
         >
-          <h2 className="text-green-500 sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-center sm:text-4xl text-3xl font-medium title-font mb-4 text-green-500">
             hire me
           </h2>
-          <p className="leading-relaxed mb-5">
+          <p className="text-center leading-relaxed mb-5">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             suscipit officia aspernatur veritatis. Asperiores, aliquid?
           </p>
