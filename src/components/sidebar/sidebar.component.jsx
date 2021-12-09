@@ -8,10 +8,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const Sidebar = () => {
   return (
-    <div
-      className=" flex flex-col
-    bg-white dark:bg-gray-900 shadow-lg"
-    >
+    <div className="flex flex-col bg-white dark:bg-gray-900 shadow-lg">
       <div className="flex items-center justify-center h-24 bg-gray-400 text-green-500 text-3xl">
         WS
       </div>

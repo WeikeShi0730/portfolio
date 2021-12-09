@@ -5,6 +5,7 @@ import {
   SiReact,
   SiTailwindcss,
   SiFirebase,
+  SiPostgresql,
   SiRedux,
   SiStripe,
   SiFastapi,
@@ -105,7 +106,10 @@ export const skills = [
     title: "Firebase",
     icon: <SiFirebase />,
   },
-
+  {
+    title: "Postgresql",
+    icon: <SiPostgresql />,
+  },
   {
     title: "Python",
     icon: <SiPython />,

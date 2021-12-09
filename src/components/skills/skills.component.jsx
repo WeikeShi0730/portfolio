@@ -7,8 +7,8 @@ const Skills = () => {
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Skills &amp; Technologies
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-green-500 mb-4">
+            skills &amp; technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
@@ -19,8 +19,8 @@ const Skills = () => {
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
             <div key={skill.title} className="p-2 sm:w-1/4 w-full">
-              <div className="bg-gray-800 rounded  gap-0 p-4 h-full">
-                <span className="grid grid-cols-2 grid-rows-2 grid-flow-col title-font font-medium text-white">
+              <div className="dark-button rounded gap-0 p-4 h-full">
+                <span className="grid grid-cols-2 grid-rows-2 grid-flow-col title-font font-medium">
                   <div className="self-center justify-self-center row-span-2">
                     <IconContext.Provider value={{ size: "2.5rem" }}>
                       {skill.icon}
