@@ -3,20 +3,20 @@ import { projects } from "../../data";
 
 const Projects = () => {
   return (
-    <section id="projects" className="body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
+    <section id="projects" className="mx-10">
+      <div className="container px-5 py-10 mx-auto my-20 border rounded-3xl shadow-xl">
+        <div className="flex flex-col w-full mb-20 text-center">
           {/* <CodeIcon className="mx-auto inline-block w-10 mb-4" /> */}
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-green-500">
             apps i've built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base body-font">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 body-font">
           {projects.map((project) => (
             <a
               href={project.link}

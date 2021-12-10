@@ -43,13 +43,13 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+    <section id="contact" className="relative mx-10">
+      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap my-20 border rounded-3xl shadow-xl">
         <form
           ref={form}
           name="contact"
           onSubmit={handleSubmit}
-          className="flex flex-col m-auto w-5/6  md:py-8 mt-8 md:mt-0"
+          className="flex flex-col lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2"
         >
           <h2 className="text-center sm:text-4xl text-3xl font-medium title-font mb-4 text-green-500">
             hire me
