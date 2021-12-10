@@ -95,7 +95,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="green-button border-0 py-2 px-6 focus:outline-none rounded text-lg"
+            className="sm-shadow green-button border-0 py-2 px-6 focus:outline-none rounded text-lg"
           >
             submit
           </button>

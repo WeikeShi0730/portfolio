@@ -3,7 +3,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Sidebar from "./components/sidebar/sidebar.component";
 import Home from "./components/home/home.component";
-// import About from "./components/about/about.component";
+import About from "./components/about/about.component";
 import Skills from "./components/skills/skills.component";
 import Projects from "./components/projects/projects.component";
 import Contact from "./components/contact/contact.component";
@@ -18,7 +18,7 @@ function App() {
       </div>
       <div className="absolute inset-y-0 right-0 w-11/12">
         <Home />
-        {/* <About /> */}
+        <About />
         <Skills />
         <Projects />
         <Contact />

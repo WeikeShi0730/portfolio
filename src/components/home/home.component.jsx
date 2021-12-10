@@ -22,13 +22,13 @@ const Home = () => {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="green-button inline-flex border-0 py-2 px-6 focus:outline-none rounded text-lg"
+              className="sm-shadow green-button inline-flex border-0 py-2 px-6 focus:outline-none rounded text-lg"
             >
               work with me
             </a>
             <a
               href="#projects"
-              className="dark-button ml-4 inline-flex border-0 py-2 px-6 focus:outline-none rounded text-lg"
+              className="sm-shadow dark-button ml-4 inline-flex border-0 py-2 px-6 focus:outline-none rounded text-lg"
             >
               see my projects
             </a>

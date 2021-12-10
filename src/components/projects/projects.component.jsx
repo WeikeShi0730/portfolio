@@ -23,7 +23,7 @@ const Projects = () => {
               key={project.title}
               className="sm:w-1/2 w-100 p-4"
             >
-              <div className="flex relative rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-500">
+              <div className="flex relative rounded-2xl lg-shadow">
                 <img
                   alt="gallery"
                   className="absolute inset-0 rounded-2xl w-full h-full object-cover object-center"

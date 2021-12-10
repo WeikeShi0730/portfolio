@@ -22,7 +22,7 @@ const Skills = () => {
               key={skill.title}
               className="p-2 sm:w-1/4 w-full"
             >
-              <div className="dark-button p-4 rounded-lg gap-0 h-full shadow-xl hover:shadow-3xl transition-shadow duration-500">
+              <div className="dark-button p-4 rounded-lg gap-0 h-full md-shadow">
                 <span className="grid grid-cols-2 grid-rows-2 grid-flow-col title-font font-medium">
                   <div className="self-center justify-self-center row-span-2">
                     <IconContext.Provider value={{ size: "2rem" }}>

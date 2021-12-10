@@ -17,11 +17,26 @@
     text-xs font-bold 
     transition-all duration-100 scale-0 origin-left;
   }
+  .social-tooltip {
+    @apply absolute w-auto p-2 m-6 min-w-max left-14 rounded-md shadow-md
+    text-white bg-gray-700 
+    text-xs font-bold 
+    transition-all duration-100 scale-0 origin-left;
+  }
   .dark-button {
     @apply bg-gray-700 hover:bg-gray-500 text-gray-400 hover:text-white;
   }
   .green-button {
     @apply text-white bg-green-500 hover:bg-green-400;
+  }
+  .sm-shadow {
+    @apply shadow-xl hover:shadow-2xl transition-shadow duration-500
+  }
+  .md-shadow {
+    @apply shadow-xl hover:shadow-3xl transition-shadow duration-500
+  }
+  .lg-shadow {
+    @apply shadow-2xl hover:shadow-3xl transition-shadow duration-500
   }
 }
 
