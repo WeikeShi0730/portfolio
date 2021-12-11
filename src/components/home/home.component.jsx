@@ -32,7 +32,7 @@ const Home = () => {
         </div>
         <div className="p-8 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded-full w-96 h-96 shadow"
+            className="object-cover object-center rounded-full w-96 h-96 shadow drop-shadow-2xl"
             src="assets/images/me.jpg"
             alt="Weike Shi"
           />

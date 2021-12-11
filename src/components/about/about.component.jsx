@@ -20,15 +20,13 @@ const About = () => {
         </div>
         <div className="flex justify-center">
           <a
-            className="green-button inline-flex border-0 py-2 px-6 focus:outline-none rounded text-lg sm-shadow"
+            className="green-button flex items-center border-0 py-2 px-6 focus:outline-none rounded text-lg sm-shadow"
             href="assets/resume/Weike Shi Resume.pdf"
             alt="Weike Shi's Resume.pdf"
-            target="_blank"
             rel="noopener noreferrer"
           >
             Resumé
           </a>
-
           <a
             href="https://github.com/WeikeShi0730"
             target="_blank"

@@ -24,7 +24,7 @@
     transition-all duration-100 scale-0 origin-left;
   }
   .sm-shadow {
-    @apply shadow-xl hover:shadow-2xl transition-shadow duration-500
+    @apply shadow-xl hover:shadow-2xl transition-shadow duration-500 
   }
   /* .md-shadow {
     @apply shadow-xl hover:shadow-2xl transition-shadow duration-500
