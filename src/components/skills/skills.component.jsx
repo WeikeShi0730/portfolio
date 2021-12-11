@@ -4,7 +4,7 @@ import { skills } from "../../data.js";
 
 const Skills = () => {
   return (
-    <section id="skills" className="mx-10 scroll-mt-10">
+    <section id="skills" className="mx-10 scroll-mt-20">
       <div className="container px-5 py-10 mx-auto my-20 border rounded-3xl shadow-xl">
         <div className="text-center mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-green-500 mb-4">

@@ -43,7 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="relative mx-10 scroll-mt-10">
+    <section id="contact" className="relative mx-10 scroll-mt-20">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap my-20 border rounded-3xl shadow-xl">
         <form
           ref={form}

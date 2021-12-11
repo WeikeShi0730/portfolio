@@ -1,7 +1,7 @@
 import React from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Sidebar from "./components/sidebar/sidebar.component";
+import NavBar from "./components/nav-bar/nav-bar.component";
 import Home from "./components/home/home.component";
 import About from "./components/about/about.component";
 import Skills from "./components/skills/skills.component";
@@ -13,10 +13,11 @@ function App() {
   return (
     <>
       <ToastContainer autoClose={4000} />
-      <div className="fixed top-0 left-0 h-full w-1/12 bg-gray-100 lg:">
+      {/* <div className="fixed top-0 left-0 h-full w-1/12 bg-gray-100 lg:">
         <Sidebar />
-      </div>
-      <div className="absolute inset-y-0 right-0 w-11/12">
+      </div> */}
+      <NavBar />
+      <div className="absolute inset-y-0 right-0 w-full">
         <Home />
         <About />
         <Skills />
