@@ -5,11 +5,9 @@ import SocialIcon from "../social-icon/social-icon.component";
 const About = () => {
   return (
     <section id="about" className="mx-10 scroll-mt-20">
-      <div className="container bg-white px-5 py-10 mx-auto my-20 border rounded-3xl shadow-xl">
-        <div className="text-center mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-green-500 mb-4">
-            about
-          </h1>
+      <div className="container bg-white px-5 py-10 mx-auto my-20 border rounded-3xl shadow-xl font-light">
+        <div className="text-center mb-20 ">
+          <h1 className="sm:text-4xl text-3xl  text-green-500 mb-4">about</h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             I'm a front-end web developer with a background in computer systems
             and network infrastructure. My 8 years of IT experience has given me

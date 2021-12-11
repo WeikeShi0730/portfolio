@@ -20,8 +20,7 @@ const NavBar = () => {
         scrollPosition ? "fixed top-0 inset-x-0" : "absolute inset-x-0 bottom-0"
       } h-16 bg-slate-200 flex m-auto items-center z-40 bg-opacity-80 backdrop-blur-sm`}
     >
-    
-      <div className="mx-10 sm:text-lg text-md title-font font-extralight text-black flex space-x-10">
+      <div className="mx-10 sm:text-lg text-md  font-extralight text-black flex space-x-10">
         <a href="#home">home</a>
         <a href="#about">about</a>
         <a href="#skills">skills</a>
