@@ -3,7 +3,7 @@ import { projects } from "../../data";
 
 const Projects = () => {
   return (
-    <section id="projects" className="mx-10">
+    <section id="projects" className="mx-10 scroll-mt-10">
       <div className="container px-5 py-10 mx-auto my-20 border rounded-3xl shadow-xl">
         <div className="flex flex-col w-full mb-20 text-center">
           {/* <CodeIcon className="mx-auto inline-block w-10 mb-4" /> */}

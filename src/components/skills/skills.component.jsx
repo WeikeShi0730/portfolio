@@ -4,7 +4,7 @@ import { skills } from "../../data.js";
 
 const Skills = () => {
   return (
-    <section id="skills" className="mx-10">
+    <section id="skills" className="mx-10 scroll-mt-10">
       <div className="container px-5 py-10 mx-auto my-20 border rounded-3xl shadow-xl">
         <div className="text-center mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-green-500 mb-4">
@@ -18,10 +18,7 @@ const Skills = () => {
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
-            <div
-              key={skill.title}
-              className="p-2 sm:w-1/4 w-full"
-            >
+            <div key={skill.title} className="p-2 sm:w-1/4 w-full">
               <div className="dark-button p-4 rounded-lg gap-0 h-full md-shadow">
                 <span className="grid grid-cols-2 grid-rows-2 grid-flow-col title-font font-medium">
                   <div className="self-center justify-self-center row-span-2">
