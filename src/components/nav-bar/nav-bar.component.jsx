@@ -18,7 +18,7 @@ const NavBar = () => {
     <div
       className={`${
         scrollPosition ? "fixed top-0 inset-x-0" : "absolute inset-x-0 bottom-0"
-      } h-16 bg-gray-300 flex m-auto items-center z-40 bg-opacity-80 backdrop-blur-sm`}
+      } h-16 bg-slate-200 flex m-auto items-center z-40 bg-opacity-80 backdrop-blur-sm`}
     >
     
       <div className="mx-10 sm:text-lg text-md title-font font-extralight text-black flex space-x-10">
@@ -27,7 +27,6 @@ const NavBar = () => {
         <a href="#skills">skills</a>
         <a href="#projects">projects</a>
         <a href="#contact">contact</a>
-        {console.log(scrollPosition)}
       </div>
     </div>
   );
