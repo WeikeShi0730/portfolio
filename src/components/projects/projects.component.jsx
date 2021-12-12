@@ -10,7 +10,7 @@ const Projects = () => {
           <h1 className="sm:text-4xl text-3xl mb-4 text-green-500">
             apps i've built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base body-font">
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.

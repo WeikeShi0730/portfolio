@@ -54,9 +54,10 @@ const Contact = () => {
           <h2 className="text-center sm:text-4xl text-3xl mb-4 text-green-500">
             hire me
           </h2>
-          <p className="text-center leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
+            fuga dolore.
           </p>
           <div className="relative mb-4 lg:w-2/3 w-3/4 m-auto">
             <label htmlFor="name" className="leading-7 text-sm text-black">
@@ -66,6 +67,7 @@ const Contact = () => {
               type="text"
               id="name"
               name="name"
+              required
               onChange={handleChange}
               className="w-full border-2 border-gray-700 rounded focus:bg-white focus:border-green-400 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
@@ -78,6 +80,7 @@ const Contact = () => {
               type="email"
               id="email"
               name="email"
+              required
               onChange={handleChange}
               className="w-full border-2 border-gray-700 rounded focus:bg-white focus:border-green-400 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
@@ -89,6 +92,7 @@ const Contact = () => {
             <textarea
               id="message"
               name="message"
+              required
               onChange={handleChange}
               className="w-full border-2 border-gray-700 rounded focus:bg-white focus:border-green-400 h-32 text-base outline-none text-black py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             />

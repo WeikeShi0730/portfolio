@@ -5,8 +5,8 @@ const Home = () => {
     <section id="home" className="scroll-mt-20 bg-slate-100">
       <div className="container h-screen mx-auto flex px-10 py-20 md:flex-row flex-col items-center font-light">
         {/* <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"> */}
-        <div className="lg:flex-grow md:w-1/2 p-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <div className=" sm:text-4xl text-3xl mb-4 text-black">
+        <div className="lg:flex-grow md:w-1/2 p-8 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
+          <div className="sm:text-4xl text-3xl mb-4 text-black">
             hi, i'm <span className="text-green-500">Weike</span>.
           </div>
           <br className="hidden lg:inline-block" />
@@ -30,9 +30,9 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="p-8 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="p-8 lg:max-w-md md:w-1/2 w-2/3">
           <img
-            className="object-cover object-center rounded-full w-96 h-96 shadow drop-shadow-2xl"
+            className="object-cover object-center rounded-full shadow drop-shadow-2xl"
             src="assets/images/me.jpg"
             alt="Weike Shi"
           />
