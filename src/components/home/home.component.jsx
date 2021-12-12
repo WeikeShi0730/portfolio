@@ -11,7 +11,10 @@ const Home = () => {
           </div>
           <br className="hidden lg:inline-block" />
           <div className="sm:text-3xl text-2xl mb-4 text-black">
-            a <span className="underline decoration-green-500 underline-offset-4">full-stack web developer </span>
+            a{" "}
+            <span className="underline decoration-green-500 underline-offset-4">
+              full-stack web developer
+            </span>{" "}
             passionate about creating interactive web applications and
             experience.
           </div>
