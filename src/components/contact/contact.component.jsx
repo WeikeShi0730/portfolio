@@ -43,8 +43,8 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="relative mx-10 scroll-mt-20">
-      <div className="container bg-white px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap my-20 border rounded-3xl shadow-xl font-light">
+    <section id="contact" className="mx-8 scroll-mt-20">
+      <div className="container bg-white px-5 py-10 mx-auto my-20 flex sm:flex-nowrap flex-wrap border rounded-3xl shadow-xl font-light">
         <form
           ref={form}
           name="contact"

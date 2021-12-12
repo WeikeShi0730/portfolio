@@ -41,7 +41,7 @@ const NavBar = () => {
     <div
       className={`${
         scrollPosition ? "fixed top-0 inset-x-0" : "absolute inset-x-0 bottom-0"
-      } h-16 bg-slate-200 flex m-auto items-center z-40 bg-opacity-80 backdrop-blur-sm`}
+      } h-16 bg-slate-200 flex mx-auto justify-center items-center z-40 bg-opacity-80 backdrop-blur-sm`}
     >
       <div>
         <Scrollspy
