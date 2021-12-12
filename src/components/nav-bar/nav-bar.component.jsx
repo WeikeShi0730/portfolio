@@ -45,7 +45,7 @@ const NavBar = () => {
     >
       <div>
         <Scrollspy
-          className="mx-10 sm:text-lg text-md font-extralight text-black flex space-x-10"
+          className="space-x-4 sm:space-x-10 sm:text-lg text-md font-extralight text-black flex"
           items={["home", "about", "skills", "projects", "contact"]}
           currentClassName="text-green-500"
           offset={-window.innerHeight / 2}

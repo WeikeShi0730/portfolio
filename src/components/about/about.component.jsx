@@ -18,9 +18,9 @@ const About = () => {
             amazing programmers and learn so much more!
           </p>
         </div>
-        <div className="flex justify-center">
+        <div className="flex flex-col m-auto sm:flex-row justify-center items-center sm:items-stretch">
           <a
-            className="green-button flex items-center border-0 py-2 px-6 focus:outline-none rounded text-lg sm-shadow"
+            className="green-button mx-2 my-2 py-2 px-6 rounded sm-shadow"
             href="assets/resume/Weike Shi Resume.pdf"
             alt="Weike Shi's Resume.pdf"
             rel="noopener noreferrer"
@@ -34,7 +34,6 @@ const About = () => {
           >
             <SocialIcon icon={<SiGithub />} text="github" />
           </a>
-
           <a
             href="https://www.linkedin.com/in/weike-shi/"
             target="_blank"

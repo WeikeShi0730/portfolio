@@ -18,16 +18,15 @@ const Skills = () => {
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
-            <div key={skill.title} className="p-2 sm:w-1/4 w-full">
-              <div className="dark-button p-4 rounded-lg gap-0 h-full sm-shadow">
-                <span className="grid grid-cols-2 grid-rows-2 grid-flow-col">
-                  <div className="self-center justify-self-center row-span-2">
+            <div key={skill.title} className="p-2 sm:w-1/4 w-1/2">
+              <div className="dark-button text-sm lg:text-base p-4 rounded-lg gap-0 h-full sm-shadow">
+                <span className="grid grid-cols-1 gap-y-2 lg:grid-cols-2 lg:grid-flow-col">
+                  <div className="self-center justify-self-center">
                     <IconContext.Provider value={{ size: "2rem" }}>
                       {skill.icon}
                     </IconContext.Provider>
                   </div>
-                  <div></div>
-                  <div className="self-end justify-self-end">{skill.title}</div>
+                  <div className="justify-self-center self-center lg:justify-self-end">{skill.title}</div>
                 </span>
               </div>
             </div>

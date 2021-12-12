@@ -54,7 +54,7 @@ const Contact = () => {
           <h2 className="text-center sm:text-4xl text-3xl mb-4 text-green-500">
             hire me
           </h2>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-center text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.
@@ -99,7 +99,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="flex items-center justify-center m-auto sm-shadow green-button border-0 py-2 px-6 focus:outline-none rounded text-lg font-light"
+            className="flex items-center justify-center m-auto sm-shadow green-button  py-2 px-6 rounded font-light"
           >
             submit
           </button>
