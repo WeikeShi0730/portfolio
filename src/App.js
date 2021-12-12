@@ -13,9 +13,6 @@ function App() {
   return (
     <>
       <ToastContainer autoClose={4000} />
-      {/* <div className="fixed top-0 left-0 h-full w-1/12 bg-gray-100 lg:">
-        <Sidebar />
-      </div> */}
       <NavBar />
       <div className="absolute inset-y-0 right-0 w-full">
         <Home />

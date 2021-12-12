@@ -38,4 +38,7 @@
   .green-button {
     @apply text-white bg-green-500 hover:bg-green-400 hover:shadow-green-400;
   }
+  .nav-bar-hover-focus {
+    @apply underline-offset-4 hover:underline hover:decoration-green-500 focus:underline focus:text-green-500
+  }
 }
