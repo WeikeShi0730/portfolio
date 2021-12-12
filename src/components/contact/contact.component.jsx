@@ -58,7 +58,7 @@ const Contact = () => {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             suscipit officia aspernatur veritatis. Asperiores, aliquid?
           </p>
-          <div className="relative mb-4">
+          <div className="relative mb-4 lg:w-2/3 w-3/4 m-auto">
             <label htmlFor="name" className="leading-7 text-sm text-black">
               name
             </label>
@@ -70,7 +70,7 @@ const Contact = () => {
               className="w-full border-2 border-gray-700 rounded focus:bg-white focus:border-green-400 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
-          <div className="relative mb-4">
+          <div className="relative mb-4 lg:w-2/3 w-3/4 m-auto">
             <label htmlFor="email" className="leading-7 text-sm text-black">
               email
             </label>
@@ -82,7 +82,7 @@ const Contact = () => {
               className="w-full border-2 border-gray-700 rounded focus:bg-white focus:border-green-400 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
-          <div className="relative mb-4">
+          <div className="relative mb-4 lg:w-2/3 w-3/4 m-auto">
             <label htmlFor="message" className="leading-7 text-sm text-black">
               message
             </label>
@@ -95,7 +95,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="sm-shadow green-button border-0 py-2 px-6 focus:outline-none rounded text-lg font-light"
+            className="flex items-center justify-center m-auto sm-shadow green-button border-0 py-2 px-6 focus:outline-none rounded text-lg font-light"
           >
             submit
           </button>
