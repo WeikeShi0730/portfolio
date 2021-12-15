@@ -24,8 +24,8 @@ export const projects = [
     subtitle: "PERN Stack & firebase",
     description: "dolore",
     image: "assets/images/project1.gif",
-    gitLink: "https://github.com/WeikeShi0730/lights-out-node",
-    demoLink: "https://f1-lightsout.herokuapp.com/",
+    gitLink: "https://github.com/WeikeShi0730/lights-out-firebase",
+    demoLink: "https://f1-lightsout.web.app/",
   },
   {
     title: "React Tracks",
