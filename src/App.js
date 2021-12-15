@@ -14,7 +14,7 @@ function App() {
     <>
       <ToastContainer autoClose={4000} />
       <NavBar />
-      <div className="">
+      <div>
         <Home />
         <About />
         <Skills />

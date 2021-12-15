@@ -48,7 +48,7 @@ const NavBar = () => {
           className="space-x-4 sm:space-x-10 sm:text-lg text-md font-extralight text-black flex"
           items={["home", "about", "skills", "projects", "contact"]}
           currentClassName="text-green-500"
-          offset={-window.innerHeight / 2}
+          offset={-window.innerHeight / 3}
         >
           <a href="#home" className="nav-bar-hover-focus">
             home

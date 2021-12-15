@@ -20,18 +20,18 @@ import {
 
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "f1 lights out",
+    subtitle: "PERN Stack & firebase",
+    description: "dolore",
     image: "assets/images/project1.gif",
-    link: "",
+    gitLink: "https://github.com/WeikeShi0730/lights-out-node",
+    demoLink: "https://f1-lightsout.herokuapp.com/",
   },
   {
     title: "React Tracks",
     subtitle: "React and Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "assets/images/project1.gif",
     link: "",
   },

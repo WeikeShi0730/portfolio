@@ -24,6 +24,7 @@ const About = () => {
             href="assets/resume/Weike Shi Resume.pdf"
             alt="Weike Shi's Resume.pdf"
             rel="noopener noreferrer"
+            target="_blank"
           >
             Resumé
           </a>
