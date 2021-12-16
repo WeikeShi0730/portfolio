@@ -4,7 +4,7 @@ import { projects } from "../../data";
 const Projects = () => {
   return (
     <section id="projects" className="mx-8 scroll-mt-20">
-      <div className="container bg-white px-5 py-10 mx-auto my-20 border rounded-3xl shadow-xl font-light">
+      <div className="container bg-opacity-40 bg-white px-5 py-10 mx-auto my-20 border rounded-3xl shadow-xl font-light">
         <div className="flex flex-col w-full mb-20 text-center">
           <h1 className="sm:text-4xl text-3xl mb-4 text-green-500">
             apps i've built

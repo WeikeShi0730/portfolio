@@ -23,3 +23,11 @@
     @apply underline-offset-4 hover:underline hover:decoration-green-500 focus:underline focus:text-green-500;
   }
 }
+
+body {
+  background-image: url("/public/assets/images/background.jpeg");
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}

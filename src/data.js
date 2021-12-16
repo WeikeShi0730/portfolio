@@ -30,7 +30,7 @@ export const projects = [
     demoLink: "https://f1-lightsout.web.app/",
   },
   {
-    title: "",
+    title: "facewallet",
     subtitle: "",
     description: "",
     image: "assets/images/project1.gif",
@@ -38,7 +38,7 @@ export const projects = [
     demoLink: "",
   },
   {
-    title: "",
+    title: "back stack",
     subtitle: "",
     description: "",
     image: "assets/images/project1.gif",
@@ -46,8 +46,16 @@ export const projects = [
     demoLink: "",
   },
   {
-    title: "",
+    title: "f1 nerd",
     subtitle: "",
+    description: "",
+    image: "assets/images/project1.gif",
+    gitLink: "",
+    demoLink: "",
+  },
+  {
+    title: "f1 fans store",
+    subtitle: "next",
     description: "",
     image: "assets/images/project1.gif",
     gitLink: "",

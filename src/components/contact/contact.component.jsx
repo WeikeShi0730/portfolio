@@ -44,7 +44,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="mx-8 scroll-mt-20">
-      <div className="container bg-white px-5 py-10 mx-auto my-20 flex sm:flex-nowrap flex-wrap border rounded-3xl shadow-xl font-light">
+      <div className="container bg-opacity-40 bg-white px-5 py-10 mx-auto my-20 flex sm:flex-nowrap flex-wrap border rounded-3xl shadow-xl font-light">
         <form
           ref={form}
           name="contact"
