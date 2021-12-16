@@ -17,7 +17,7 @@ const Projects = () => {
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {projects.map((project) => (
-            <div key={project.title} className="sm:w-1/2 w-full h-80 p-4">
+            <div key={project.title} className="sm:w-1/2 w-full h-full p-4">
               <div className="flex relative rounded-2xl h-full lg-shadow">
                 <img
                   alt="gallery"

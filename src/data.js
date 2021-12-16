@@ -21,35 +21,37 @@ import {
 export const projects = [
   {
     title: "f1 lights out",
-    subtitle: "PERN Stack & firebase",
-    description: "dolore",
+    subtitle:
+      "React, React Router, TailwindCss; v1: PgSQL, Nodejs, Express, Redux, REST API; v2: Firebase",
+    description:
+      "F1 reaction timer game, with authentication and leaderboard real-time DB to show standings. Completely build with hooks and functional components. Two different implementations, PERN stack and React + Firebase.",
     image: "assets/images/project1.gif",
     gitLink: "https://github.com/WeikeShi0730/lights-out-firebase",
     demoLink: "https://f1-lightsout.web.app/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "",
+    subtitle: "",
+    description: "",
     image: "assets/images/project1.gif",
-    link: "",
+    gitLink: "",
+    demoLink: "",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "",
+    subtitle: "",
+    description: "",
     image: "assets/images/project1.gif",
-    link: "",
+    gitLink: "",
+    demoLink: "",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: "",
+    subtitle: "",
+    description: "",
     image: "assets/images/project1.gif",
-    link: "",
+    gitLink: "",
+    demoLink: "",
   },
 ];
 
