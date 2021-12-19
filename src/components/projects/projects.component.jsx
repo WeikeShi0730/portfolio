@@ -24,7 +24,7 @@ const Projects = () => {
                   className="absolute inset-0 rounded-2xl w-full h-full object-cover object-top"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 rounded-2xl w-full h-full bg-slate-500 dark:bg-neutral-800 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 rounded-2xl w-full h-full bg-slate-500 dark:bg-neutral-700 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm text-green-400 mb-1">
                     {project.subtitle}
                   </h2>

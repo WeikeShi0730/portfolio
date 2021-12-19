@@ -1,5 +1,17 @@
 import React, { useState, useEffect } from "react";
 import Scrollspy from "react-scrollspy";
+import useDarkMode from "../hooks/useDarkMode";
+import { FaMoon, FaSun } from "react-icons/fa";
+
+const ThemeIcon = () => {
+  const [darkTheme, setDarkTheme] = useDarkMode();
+  const handleMode = () => setDarkTheme(!darkTheme);
+  return (
+    <span onClick={handleMode}>
+      {darkTheme ? <FaSun size="24" /> : <FaMoon size="24" />}
+    </span>
+  );
+};
 
 const NavBar = () => {
   const [scrollPosition, setScrollPosition] = useState(false);
@@ -14,28 +26,6 @@ const NavBar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  // const sections = document.querySelectorAll("section");
-  // var observer = new IntersectionObserver(
-  //   function (entries) {
-  //     if (entries[0].isIntersecting === true) {
-  //       document
-  //         .getElementById(entries[0].target.id + "Tag")
-  //         .classList.add("text-green-500");
-  //       // console.log(entries[0].target);
-  //     } else {
-  //       document
-  //         .getElementById(entries[0].target.id + "Tag")
-  //         .classList.remove("text-green-500");
-  //     }
-  //   },
-  //   { threshold: [0.7] }
-  // );
-
-  // sections.forEach((section) => {
-  //   console.log(section);
-  //   observer.observe(section);
-  // });
 
   return (
     <div
@@ -65,6 +55,9 @@ const NavBar = () => {
           </a>
           <a href="#contact" className="nav-bar-hover-focus">
             contact
+          </a>
+          <a href="#_blank" className="flex items-center nav-bar-hover-focus">
+            <ThemeIcon />
           </a>
         </Scrollspy>
       </div>

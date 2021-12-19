@@ -1,6 +1,7 @@
 // import colors from
 
 module.exports = {
+  darkMode: "class",
   content: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   theme: {
     boxShadow: {
@@ -19,7 +20,7 @@ module.exports = {
       boxShadow: {
         "xl-dark": "0 0 20px rgba(255, 255, 255, 0.1), 0 10px 10px -5px rgba(255, 255, 255, 0.04)",
         "2xl-dark": "0 5px 10px rgba(255, 255, 255, 0.6)",
-        "3xl-dark": "0 5px 15px rgba(255, 255, 255, 0.6)",
+        "3xl-dark": "0 8px 15px rgba(255, 255, 255, 0.6)",
       },
       colors: {
         gray: {
