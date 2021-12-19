@@ -2,15 +2,15 @@ import React from "react";
 
 const Home = () => {
   return (
-    <section id="home" className="bg-slate-100 bg-opacity-40">
+    <section id="home">
       <div className="container bg-opacity-40 h-screen mx-auto flex px-10 py-10 md:flex-row flex-col items-center font-light">
         {/* <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"> */}
         <div className="lg:flex-grow md:w-1/2 p-8 flex flex-col md:items-start md:text-left mb-0 md:mb-0 items-center text-center">
-          <div className="sm:text-4xl text-3xl mb-4 text-black">
+          <div className="sm:text-4xl text-3xl mb-4 text-black dark:text-white">
             hi, i'm <span className="text-green-500">Weike</span>.
           </div>
           <br className="hidden lg:inline-block" />
-          <div className="sm:text-3xl text-2xl mb-4 text-black">
+          <div className="sm:text-3xl text-2xl mb-4 text-black dark:text-white">
             a{" "}
             <span className="underline decoration-green-500 underline-offset-4">
               full-stack web developer

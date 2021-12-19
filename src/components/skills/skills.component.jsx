@@ -5,12 +5,12 @@ import { skills } from "../../data.js";
 const Skills = () => {
   return (
     <section id="skills" className="mx-8 scroll-mt-20">
-      <div className="container bg-opacity-40 bg-white px-5 py-10 mx-auto my-20 border rounded-3xl shadow-xl font-light">
+      <div className="container bg-opacity-40 bg-white dark:bg-neutral-900 dark:bg-opacity-40 px-5 py-10 mx-auto my-20 rounded-3xl shadow-xl dark:shadow-xl-dark font-light">
         <div className="text-center mb-20">
           <h1 className="sm:text-4xl text-3xl text-green-500 mb-4">
             skills
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-base text-black dark:text-white leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
             ipsa delectus eum quo voluptas aspernatur accusantium distinctio
             possimus est.

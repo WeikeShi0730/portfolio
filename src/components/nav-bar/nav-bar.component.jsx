@@ -41,11 +41,12 @@ const NavBar = () => {
     <div
       className={`${
         scrollPosition ? "fixed top-0 inset-x-0" : "absolute inset-x-0 bottom-0"
-      } h-16 bg-slate-200 flex mx-auto justify-center items-center z-40 bg-opacity-80 backdrop-blur-sm`}
+      } h-16 bg-slate-200 flex mx-auto justify-center items-center z-40 bg-opacity-80 backdrop-blur-sm
+      dark:bg-neutral-800 dark:bg-opacity-80`}
     >
       <div>
         <Scrollspy
-          className="space-x-4 sm:space-x-10 sm:text-lg text-md font-extralight text-black flex"
+          className="space-x-4 sm:space-x-10 sm:text-lg text-md font-extralight text-black dark:text-white flex"
           items={["home", "about", "skills", "projects", "contact"]}
           currentClassName="text-green-500"
           offset={-window.innerHeight / 3}

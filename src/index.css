@@ -5,19 +5,19 @@
 
 @layer components {
   .sm-shadow {
-    @apply shadow-xl hover:shadow-2xl transition-shadow duration-500;
+    @apply shadow-xl hover:shadow-2xl transition-shadow duration-500 dark:shadow-xl-dark dark:hover:shadow-2xl-dark;
   }
   /* .md-shadow {
     @apply shadow-xl hover:shadow-2xl transition-shadow duration-500
   } */
   .lg-shadow {
-    @apply shadow-2xl hover:shadow-3xl transition-shadow duration-500;
+    @apply shadow-2xl hover:shadow-3xl transition-shadow duration-500 dark:shadow-2xl-dark dark:hover:shadow-3xl-dark;
   }
   .dark-button {
-    @apply items-center py-1 px-3 lg:py-2 lg:px-6 text-base lg:text-lg bg-gray-700 hover:bg-gray-500 text-gray-400 hover:text-white;
+    @apply items-center py-1 px-3 lg:py-2 lg:px-6 text-base lg:text-lg bg-gray-700 hover:bg-gray-500 text-gray-400 hover:text-white dark:text-black dark:hover:text-gray-600 dark:bg-gray-300 dark:hover:bg-gray-100;
   }
   .green-button {
-    @apply items-center py-1 px-3 lg:py-2 lg:px-6 text-base lg:text-lg text-white bg-green-500 hover:bg-green-400 hover:shadow-green-400;
+    @apply items-center py-1 px-3 lg:py-2 lg:px-6 text-base lg:text-lg text-white bg-green-500 hover:bg-green-400 hover:shadow-green-400 dark:text-black;
   }
   .nav-bar-hover-focus {
     @apply underline-offset-4 hover:underline hover:decoration-green-500 focus:underline focus:text-green-500;

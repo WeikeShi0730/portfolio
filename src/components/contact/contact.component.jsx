@@ -44,7 +44,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="mx-8 scroll-mt-20">
-      <div className="container bg-opacity-40 bg-white px-5 py-10 mx-auto my-20 flex sm:flex-nowrap flex-wrap border rounded-3xl shadow-xl font-light">
+      <div className="container bg-opacity-40 bg-white dark:bg-neutral-900 dark:bg-opacity-40 px-5 py-10 mx-auto my-20 rounded-3xl shadow-xl dark:shadow-xl-dark font-light">
         <form
           ref={form}
           name="contact"
@@ -54,13 +54,13 @@ const Contact = () => {
           <h2 className="text-center sm:text-4xl text-3xl mb-4 text-green-500">
             hire me
           </h2>
-          <p className="text-center text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-center text-black dark:text-white text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.
           </p>
           <div className="relative mb-4 lg:w-2/3 w-3/4 m-auto">
-            <label htmlFor="name" className="leading-7 text-sm text-black">
+            <label htmlFor="name" className="leading-7 text-sm text-black dark:text-white">
               name
             </label>
             <input
@@ -69,11 +69,11 @@ const Contact = () => {
               name="name"
               required
               onChange={handleChange}
-              className="w-full border-2 border-gray-700 rounded focus:bg-white focus:border-green-400 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full border-2 border-gray-700 rounded bg-white dark:bg-neutral-900 focus:border-green-400 text-base outline-none text-black dark:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
           <div className="relative mb-4 lg:w-2/3 w-3/4 m-auto">
-            <label htmlFor="email" className="leading-7 text-sm text-black">
+            <label htmlFor="email" className="leading-7 text-sm text-black dark:text-white">
               email
             </label>
             <input
@@ -82,11 +82,11 @@ const Contact = () => {
               name="email"
               required
               onChange={handleChange}
-              className="w-full border-2 border-gray-700 rounded focus:bg-white focus:border-green-400 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full border-2 border-gray-700 rounded bg-white dark:bg-neutral-900 focus:border-green-400 text-base outline-none text-black dark:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
           <div className="relative mb-4 lg:w-2/3 w-3/4 m-auto">
-            <label htmlFor="message" className="leading-7 text-sm text-black">
+            <label htmlFor="message" className="leading-7 text-sm text-black dark:text-white">
               message
             </label>
             <textarea
@@ -94,7 +94,7 @@ const Contact = () => {
               name="message"
               required
               onChange={handleChange}
-              className="w-full border-2 border-gray-700 rounded focus:bg-white focus:border-green-400 h-32 text-base outline-none text-black py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full border-2 border-gray-700 rounded bg-white dark:bg-neutral-900 focus:border-green-400 h-32 text-base outline-none text-black dark:text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             />
           </div>
           <button
