@@ -56,7 +56,7 @@ const NavBar = () => {
           <a href="#contact" className="nav-bar-hover-focus">
             contact
           </a>
-          <a href="#_blank" className="flex items-center nav-bar-hover-focus">
+          <a href="#_blank" className="flex items-center">
             <ThemeIcon />
           </a>
         </Scrollspy>
