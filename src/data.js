@@ -47,11 +47,12 @@ export const projects = [
   },
   {
     title: "f1 nerd",
-    subtitle: "",
-    description: "",
-    image: "assets/images/project1.gif",
-    gitLink: "",
-    demoLink: "",
+    subtitle: "React, Next.js, TailwindCss, Full-Stack, Flask, Redis",
+    description:
+      "F1 nerds need more data to have a more comprehensive understanding of what's happening on the track. This app helps visualize and compare the race and telemetry data by selecting the sessions of your interest.",
+    image: "assets/images/project4.gif",
+    gitLink: "https://github.com/WeikeShi0730/f1-nerds-next",
+    demoLink: "https://f1-nerds-next.vercel.app/",
   },
   {
     title: "f1 fans store",
