@@ -1,5 +1,6 @@
 import {
   SiJavascript,
+  SiTypescript,
   SiHtml5,
   SiSass,
   SiReact,
@@ -20,12 +21,30 @@ import {
 
 export const projects = [
   {
+    title: "pitstop e-commerce",
+    subtitle: "Next.js, Typescript, Firebase, React, Tailwind Css",
+    description:
+      "Pitstop is an E-commerce website built from scratch that sells various F1™ related stickers. Users can shop buy teams, search their favorites, and checkout with Stripe™. They can log in to view the wishlist and order history. The cutting-edgy technologies bring a buttery smooth shopping experience.",
+    image: "assets/images/pitstop.gif",
+    gitLink: "https://github.com/WeikeShi0730/pitstop",
+    demoLink: "https://pitstop-shop.vercel.app/",
+  },
+  {
+    title: "f1 nerd",
+    subtitle: "React, Next.js, TailwindCss, Full-Stack, Flask, Redis",
+    description:
+      "F1 nerds need more data to have a more comprehensive understanding of what's happening on the track. This app helps visualize and compare the race and telemetry data by selecting the sessions of your interest.",
+    image: "assets/images/f1nerds.gif",
+    gitLink: "https://github.com/WeikeShi0730/f1-nerds-next",
+    demoLink: "https://f1-nerds-next.vercel.app/",
+  },
+  {
     title: "f1 lights out",
     subtitle:
       "React, React Router, TailwindCss; v1: PgSQL, Nodejs, Express, Redux, REST API; v2: Firebase",
     description:
       "F1 reaction timer game, with authentication and leaderboard real-time DB to show standings. Completely build with hooks and functional components. Two different implementations, PERN stack and React + Firebase.",
-    image: "assets/images/project1.gif",
+    image: "assets/images/lightsout.gif",
     gitLink: "https://github.com/WeikeShi0730/lights-out-firebase",
     demoLink: "https://f1-lightsout.web.app/",
   },
@@ -45,29 +64,16 @@ export const projects = [
     gitLink: "",
     demoLink: "",
   },
-  {
-    title: "f1 nerd",
-    subtitle: "React, Next.js, TailwindCss, Full-Stack, Flask, Redis",
-    description:
-      "F1 nerds need more data to have a more comprehensive understanding of what's happening on the track. This app helps visualize and compare the race and telemetry data by selecting the sessions of your interest.",
-    image: "assets/images/project4.gif",
-    gitLink: "https://github.com/WeikeShi0730/f1-nerds-next",
-    demoLink: "https://f1-nerds-next.vercel.app/",
-  },
-  {
-    title: "f1 fans store",
-    subtitle: "next",
-    description: "",
-    image: "assets/images/project1.gif",
-    gitLink: "",
-    demoLink: "",
-  },
 ];
 
 export const skills = [
   {
     title: "JavaScript",
     icon: <SiJavascript />,
+  },
+  {
+    title: "TypeScript",
+    icon: <SiTypescript />,
   },
   {
     title: "HTML",
@@ -78,7 +84,7 @@ export const skills = [
     icon: <SiSass />,
   },
   {
-    title: "Tailwind",
+    title: "Tailwind CSS",
     icon: <SiTailwindcss />,
   },
   {
