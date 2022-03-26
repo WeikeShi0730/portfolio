@@ -15,9 +15,12 @@ const About = () => {
             I love to learn new skills and am passionate about designing web
             applications to solve real problems and find solutions to human
             laziness. Also, I'm a huge Formula One fan, and lots of my projects
-            are F1-related. When I'm not coding, I can be found in the kitchen
-            (more likely to be eating than cooking), watching F1, reading books,
-            and playing games.
+            are F1-related.
+          </p>
+          <p className="text-base leading-relaxed text-left xl:w-2/4 lg:w-3/4 mx-auto text-black dark:text-white">
+            When I'm not coding, I can be found in the kitchen (more likely to
+            be eating than cooking), watching F1, reading books, and playing
+            games.
           </p>
         </div>
         <div className="flex flex-col m-auto sm:flex-row justify-center items-center sm:items-stretch">
