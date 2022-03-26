@@ -9,10 +9,10 @@ const Projects = () => {
           <h1 className="sm:text-4xl text-3xl mb-4 text-green-500">
             apps i've built
           </h1>
-          <p className="text-base text-black dark:text-white leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+          <p className="text-base text-left text-black dark:text-white leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            The projects below showcase my ability to create functional and
+            innovative web apps. Hover over them to see technologies used, brief
+            descriptions, links to the websites, and repos.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -29,7 +29,9 @@ const Projects = () => {
                     {project.subtitle}
                   </h2>
                   <h1 className="text-lg text-white mb-3">{project.title}</h1>
-                  <p className="leading-relaxed text-black dark:text-neutral-300 mb-10">{project.description}</p>
+                  <p className="leading-relaxed text-black dark:text-neutral-300 mb-10">
+                    {project.description}
+                  </p>
                   <div className="flex absolute inset-x-0 bottom-4 justify-center p-2 text-white">
                     <a
                       className="mx-5 underline underline-offset-4 decoration-green-400 hover:decoration-green-500"
