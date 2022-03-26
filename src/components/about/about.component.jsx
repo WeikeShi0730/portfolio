@@ -8,14 +8,16 @@ const About = () => {
       <div className="container bg-opacity-40 bg-white dark:bg-neutral-900 dark:bg-opacity-40 px-5 py-10 mx-auto my-20 rounded-3xl shadow-xl dark:shadow-xl-dark font-light">
         <div className="text-center mb-20">
           <h1 className="sm:text-4xl text-3xl  text-green-500 mb-4">about</h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-black dark:text-white">
-            I'm a front-end web developer with a background in computer systems
-            and network infrastructure. My 8 years of IT experience has given me
-            a strong foundation for web development and building complex
-            solutions. Recently, I graduated from the Juno College Immersive Web
-            Development Bootcamp. I am passionate about coding and solving
-            problems through code, and I am excited to work alongside other
-            amazing programmers and learn so much more!
+          <p className="text-base leading-relaxed text-left xl:w-2/4 lg:w-3/4 mx-auto text-black dark:text-white">
+            I'm a web developer with an engineering background and several years
+            of experience. I'm excited about creating websites using the most
+            cutting-edge technologies that help with web development and UI/UX.
+            I love to learn new skills and am passionate about designing web
+            applications to solve real problems and find solutions to human
+            laziness. Also, I'm a huge Formula One fan, and lots of my projects
+            are F1-related. When I'm not coding, I can be found in the kitchen
+            (more likely to be eating than cooking), watching F1, reading books,
+            and playing games.
           </p>
         </div>
         <div className="flex flex-col m-auto sm:flex-row justify-center items-center sm:items-stretch">
