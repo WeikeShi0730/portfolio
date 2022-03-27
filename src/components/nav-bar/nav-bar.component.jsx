@@ -56,9 +56,9 @@ const NavBar = () => {
           <a href="#contact" className="nav-bar-hover-focus">
             contact
           </a>
-          <a href="#_blank" className="flex items-center">
+          <button href="" className="flex items-center">
             <ThemeIcon />
-          </a>
+          </button>
         </Scrollspy>
       </div>
     </div>

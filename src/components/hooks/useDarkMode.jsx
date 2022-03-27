@@ -4,7 +4,7 @@ const useDarkMode = () => {
   const key = "dark-theme";
   const [isEnabled, setIsEnabled] = useState(() => {
     const item = window.localStorage.getItem(key);
-    return item ? item : undefined;
+    return item === true || false ? item : false;
   });
 
   const setValue = (value) => {
@@ -13,10 +13,8 @@ const useDarkMode = () => {
   };
 
   useEffect(() => {
-    const className = "dark";
     const bodyClass = window.document.body.classList;
-
-    isEnabled ? bodyClass.add(className) : bodyClass.remove(className);
+    isEnabled ? bodyClass.add("dark") : bodyClass.remove("dark");
   }, [isEnabled]);
 
   return [isEnabled, setValue];
