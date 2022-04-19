@@ -22,9 +22,9 @@ import {
 export const projects = [
   {
     title: "pitstop e-commerce",
-    subtitle: "Next.js, Typescript, Firebase, React, Tailwind Css",
+    subtitle: "Next.js, Typescript, Firebase, React, TailwindCss",
     description:
-      "Pitstop is an E-commerce website built from scratch that sells various F1™ related stickers. Users can shop buy teams, search their favorites, and checkout with Stripe™. They can log in to view the wishlist and order history. The cutting-edgy technologies bring a buttery smooth shopping experience.",
+      "Pitstop is an E-commerce website built from scratch that sells various F1™ related stickers. Users can shop buy teams, search for their favorites, and checkout with Stripe™. They can log in to view the wishlist and order history. The cutting-edgy technologies bring a buttery smooth shopping experience.",
     image: "assets/images/pitstop.gif",
     gitLink: "https://github.com/WeikeShi0730/pitstop",
     demoLink: "https://pitstop-shop.vercel.app/",
@@ -58,10 +58,11 @@ export const projects = [
   },
   {
     title: "back stack",
-    subtitle: "",
-    description: "",
+    subtitle: "React, Arduino, TailwindCss, Firebase, Full-Stack",
+    description:
+      "A back motion tracking device for people who spend hours working seated. It monitors slouching, provides real-time position angels, warns of bad postures, generates daily usage reports, and compares behaviors between days. It helps reduce spine pain.",
     image: "assets/images/project1.gif",
-    gitLink: "",
+    gitLink: "https://github.com/WeikeShi0730/back-stack",
     demoLink: "",
   },
 ];
