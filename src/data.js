@@ -61,7 +61,7 @@ export const projects = [
     subtitle: "React, Arduino, TailwindCss, Firebase, Full-Stack",
     description:
       "A back motion tracking device for people who spend hours working seated. It monitors slouching, provides real-time position angels, warns of bad postures, generates daily usage reports, and compares behaviors between days. It helps reduce spine pain.",
-    image: "assets/images/project1.gif",
+    image: "assets/images/backstack.gif",
     gitLink: "https://github.com/WeikeShi0730/back-stack",
     demoLink: "https://back-stack-app.web.app/",
   },
