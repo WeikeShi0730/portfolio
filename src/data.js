@@ -49,14 +49,6 @@ export const projects = [
     demoLink: "https://f1-lightsout.web.app/",
   },
   {
-    title: "facewallet",
-    subtitle: "",
-    description: "",
-    image: "assets/images/project1.gif",
-    gitLink: "",
-    demoLink: "",
-  },
-  {
     title: "back stack",
     subtitle: "React, Arduino, TailwindCss, Firebase, Full-Stack",
     description:

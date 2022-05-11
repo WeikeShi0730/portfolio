@@ -52,12 +52,10 @@ const Contact = () => {
           className="flex flex-col lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2"
         >
           <h2 className="text-center sm:text-4xl text-3xl mb-4 text-green-500">
-            hire me
+            get in touch
           </h2>
           <p className="text-center text-black dark:text-white text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            we can talk about anything!
           </p>
           <div className="relative mb-4 lg:w-2/3 w-3/4 m-auto">
             <label htmlFor="name" className="leading-7 text-sm text-black dark:text-white">
