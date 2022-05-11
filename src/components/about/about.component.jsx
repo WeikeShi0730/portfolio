@@ -26,7 +26,7 @@ const About = () => {
         <div className="flex flex-col m-auto sm:flex-row justify-center items-center sm:items-stretch">
           <a
             className="flex green-button text-center mx-2 my-2 py-2 px-6 rounded sm-shadow"
-            href="assets/resume/Weike Shi Resume.pdf"
+            href="assets/resume/Weike Shi Resume 2022.pdf"
             alt="Weike Shi's Resume.pdf"
             rel="noopener noreferrer"
             target="_blank"
