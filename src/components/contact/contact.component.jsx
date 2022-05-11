@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import { sendForm } from "emailjs-com";
-import emailkey from "../../emailkey";
 import { toast } from "react-toastify";
 
 const Contact = () => {
@@ -23,10 +22,10 @@ const Contact = () => {
     event.preventDefault();
     try {
       const res = await sendForm(
-        emailkey.SERVICE_ID,
-        emailkey.TEMPLATE_ID,
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         form.current,
-        emailkey.USER_ID
+        process.env.REACT_APP_USER_ID
       );
       toast.success("success ✅ i'll get back to you asap, thanks!", {
         position: toast.POSITION.TOP_CENTER,
@@ -58,7 +57,10 @@ const Contact = () => {
             we can talk about anything!
           </p>
           <div className="relative mb-4 lg:w-2/3 w-3/4 m-auto">
-            <label htmlFor="name" className="leading-7 text-sm text-black dark:text-white">
+            <label
+              htmlFor="name"
+              className="leading-7 text-sm text-black dark:text-white"
+            >
               name
             </label>
             <input
@@ -71,7 +73,10 @@ const Contact = () => {
             />
           </div>
           <div className="relative mb-4 lg:w-2/3 w-3/4 m-auto">
-            <label htmlFor="email" className="leading-7 text-sm text-black dark:text-white">
+            <label
+              htmlFor="email"
+              className="leading-7 text-sm text-black dark:text-white"
+            >
               email
             </label>
             <input
@@ -84,7 +89,10 @@ const Contact = () => {
             />
           </div>
           <div className="relative mb-4 lg:w-2/3 w-3/4 m-auto">
-            <label htmlFor="message" className="leading-7 text-sm text-black dark:text-white">
+            <label
+              htmlFor="message"
+              className="leading-7 text-sm text-black dark:text-white"
+            >
               message
             </label>
             <textarea

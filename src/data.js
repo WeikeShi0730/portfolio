@@ -39,6 +39,15 @@ export const projects = [
     demoLink: "https://f1-nerds-next.vercel.app/",
   },
   {
+    title: "back stack",
+    subtitle: "React, Arduino, TailwindCss, Firebase, Full-Stack",
+    description:
+      "A back motion tracking device for people who spend hours working seated. It monitors slouching, provides real-time position angels, warns of bad postures, generates daily usage reports, and compares behaviors between days. It helps reduce spine pain.",
+    image: "assets/images/backstack.gif",
+    gitLink: "https://github.com/WeikeShi0730/back-stack",
+    demoLink: "https://back-stack-app.web.app/",
+  },
+  {
     title: "f1 lights out",
     subtitle:
       "React, React Router, TailwindCss; v1: PgSQL, Nodejs, Express, Redux, REST API; v2: Firebase",
@@ -47,15 +56,6 @@ export const projects = [
     image: "assets/images/lightsout.gif",
     gitLink: "https://github.com/WeikeShi0730/lights-out-firebase",
     demoLink: "https://f1-lightsout.web.app/",
-  },
-  {
-    title: "back stack",
-    subtitle: "React, Arduino, TailwindCss, Firebase, Full-Stack",
-    description:
-      "A back motion tracking device for people who spend hours working seated. It monitors slouching, provides real-time position angels, warns of bad postures, generates daily usage reports, and compares behaviors between days. It helps reduce spine pain.",
-    image: "assets/images/backstack.gif",
-    gitLink: "https://github.com/WeikeShi0730/back-stack",
-    demoLink: "https://back-stack-app.web.app/",
   },
 ];
 
