@@ -19,10 +19,7 @@ const Home = () => {
             experience.
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-0">
-            <a
-              href="#contact"
-              className="sm-shadow green-button rounded py-2"
-            >
+            <a href="#contact" className="sm-shadow green-button rounded py-2">
               work with me
             </a>
             <a

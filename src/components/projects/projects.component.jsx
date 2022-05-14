@@ -10,7 +10,7 @@ const Projects = () => {
             apps i've built
           </h1>
           <p className="text-base text-left text-black dark:text-white leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            The projects below showcase my ability to create functional and
+            projects below showcase my ability to create functional and
             innovative web apps. Hover over them to see technologies used, brief
             descriptions, links to the websites, and repos.
           </p>
