@@ -30,7 +30,10 @@ const NavBar = () => {
   return (
     <div
       className={`${
-        scrollPosition ? "fixed top-0 inset-x-0" : "absolute inset-x-0 bottom-0"
+        scrollPosition
+          ? "fixed top-0 inset-x-0"
+          : "absolute inset-x-0 bottom-0"
+        // "sticky top-0 inset-x-0"
       } h-16 bg-slate-200 flex mx-auto justify-center items-center z-40 bg-opacity-80 backdrop-blur-sm
       dark:bg-neutral-800 dark:bg-opacity-80`}
     >
