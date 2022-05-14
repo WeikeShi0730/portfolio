@@ -14,7 +14,7 @@ function App() {
     <>
       <ToastContainer autoClose={4000} />
       <NavBar />
-      <div className="bg-slate-100 bg-opacity-40 dark:bg-neutral-900 dark:bg-opacity-90">
+      <div className="h-full bg-slate-100 bg-opacity-40 dark:bg-neutral-900 dark:bg-opacity-90">
         <Home />
         <About />
         <Skills />
