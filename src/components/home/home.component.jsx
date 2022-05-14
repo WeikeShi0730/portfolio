@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <section id="home">
-      <div className="container bg-opacity-40 h-full mx-auto flex px-10 py-10 md:flex-row flex-col items-center font-light">
+      <div className="container bg-opacity-40 mx-auto flex px-10 py-10 md:flex-row flex-col items-center font-light">
         {/* <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"> */}
         <div className="lg:flex-grow md:w-1/2 p-8 flex flex-col md:items-start md:text-left mb-0 md:mb-0 items-center text-left">
           <div className="sm:text-4xl text-3xl mb-4 text-black dark:text-white">
