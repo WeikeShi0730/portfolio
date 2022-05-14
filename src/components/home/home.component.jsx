@@ -5,7 +5,7 @@ const Home = () => {
     <section id="home">
       <div className="container bg-opacity-40 h-screen mx-auto flex px-10 py-10 md:flex-row flex-col items-center font-light">
         {/* <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"> */}
-        <div className="lg:flex-grow md:w-1/2 p-8 flex flex-col md:items-start md:text-left mb-0 md:mb-0 items-center text-center">
+        <div className="lg:flex-grow md:w-1/2 p-8 flex flex-col md:items-start md:text-left mb-0 md:mb-0 items-center text-left">
           <div className="sm:text-4xl text-3xl mb-4 text-black dark:text-white">
             hi, i'm <span className="text-green-500">Weike</span>.
           </div>
@@ -18,16 +18,16 @@ const Home = () => {
             passionate about creating interactive web applications and
             experience.
           </div>
-          <div className="flex justify-center">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-0">
             <a
               href="#contact"
-              className="sm-shadow green-button inline-flex rounded"
+              className="sm-shadow green-button rounded py-2"
             >
               work with me
             </a>
             <a
               href="#projects"
-              className="sm-shadow dark-button ml-4 inline-flex rounded"
+              className="sm-shadow dark-button md:ml-4 rounded py-2"
             >
               see my projects
             </a>

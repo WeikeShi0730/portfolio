@@ -7,7 +7,7 @@ const About = () => {
     <section id="about" className="mx-8 scroll-mt-20">
       <div className="container bg-opacity-40 bg-white dark:bg-neutral-900 dark:bg-opacity-40 px-5 py-10 mx-auto my-20 rounded-3xl shadow-xl dark:shadow-xl-dark font-light">
         <div className="text-center mb-20">
-          <h1 className="sm:text-4xl text-3xl  text-green-500 mb-4">about</h1>
+          <h1 className="sm:text-4xl text-3xl text-green-500 mb-4">about</h1>
           <p className="text-base leading-relaxed text-left xl:w-2/4 lg:w-3/4 mx-auto text-black dark:text-white">
             I'm a web developer with an engineering background and several years
             of experience. I'm excited about creating websites using the most
