@@ -23,7 +23,10 @@
     @apply underline-offset-4 hover:underline hover:decoration-green-500 focus:underline focus:text-green-500;
   }
 }
-
+html {
+  width: 100%;
+  height: 100%;
+}
 body {
   background-image: url("/public/assets/images/background.jpeg");
   background-size: cover;
