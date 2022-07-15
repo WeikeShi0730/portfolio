@@ -58,7 +58,7 @@ export const projects = [
     demoLink: "https://f1-lightsout.web.app/",
   },
   {
-    title: "Worldle",
+    title: "worldle",
     subtitle: "React, TailwindCss, Typescript",
     description:
       "This is the geography-themed 'Wordle' game, where you are given 6 chances to guess the country based on the shapes and flags. It also gives a hint each time for the distance and direction to the answer.",
