@@ -59,8 +59,7 @@ export const projects = [
   },
   {
     title: "Worldle",
-    subtitle:
-      "React, TailwindCss, Typescript",
+    subtitle: "React, TailwindCss, Typescript",
     description:
       "This is the geography-themed 'Wordle' game, where you are given 6 chances to guess the country based on the shapes and flags. It also gives a hint each time for the distance and direction to the answer.",
     image: "assets/images/worldle.gif",
